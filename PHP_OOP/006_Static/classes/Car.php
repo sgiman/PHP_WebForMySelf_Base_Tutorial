@@ -7,7 +7,7 @@ class Car {
     public $speed = 180;
     public $brand;
 
-    public static $CountCar = 0;    // Статическая переменная (вина тко в косаа) 
+    public static $CountCar = 0;    // Статическая переменная
 
     public function __construct($color, $wheels = 4, $speed, $brand)
     {
