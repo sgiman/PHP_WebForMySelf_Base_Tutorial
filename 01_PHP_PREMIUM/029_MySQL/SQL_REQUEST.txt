@@ -1,0 +1,29 @@
+1. Выбрать все записи
+SELECT * FROM `db` WHERE 1
+SELECT * FROM `db`
+
+2. Выбрать одну запись
+SELECT * FROM `db` WHERE id = 2
+
+3. Выбрать записи по условию
+SELECT * FROM `db` WHERE id > 1
+SELECT * FROM `db` WHERE id > 1 LIMIT 2
+
+4. Выбрать с ограничением записей
+SELECT * FROM `db` LIMIT 2
+
+5. Сортировка по полю в возрастающем и убывающем порядке  
+SELECT * FROM `db` ORDER BY id ASC
+SELECT * FROM `db` ORDER BY id DESC
+
+6. Обновить с добалением строки/символа для всех полей или по условию
+UPDATE `db` SET `text`= CONCAT(text, '!')
+UPDATE `db` SET `text`= CONCAT(text, '?') WHERE id = 2 
+
+7. Вставка строки для указанных полей со значениями 
+INSERT INTO `db`(`name`, `text`) VALUES ('Ваня', 'Hello!')
+
+8. Удалить по условию  
+DELETE FROM `db` WHERE id = 12 // строку
+DELETE FROM `db` WHERE 1	   // все данные таблицы 
+DELETE FROM `db`			   // все данные таблицы	

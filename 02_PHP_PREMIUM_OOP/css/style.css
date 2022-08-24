@@ -1,0 +1,37 @@
+/*********************************************************
+ * Style for testing
+ * style.css
+ *********************************************************/
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+    font-family: "Open Sans", sans-serif;
+}
+
+.tred {
+    color: #c61414;
+    font-family: "Open Sans", sans-serif;
+}
+
+.tblue {
+    color: #0e65ab;
+    font-family: "Open Sans", sans-serif;
+}
+
+.tgreen {
+    color: #1a6d23;
+    font-family: "Open Sans", sans-serif;
+}
+
+.tbold {
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+.message {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
