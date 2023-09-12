@@ -3,7 +3,7 @@ PHP Base Tutorial
 
 ## WebForMySelf [Kudlay Andrey] Yii2 Framework (2020)
 
-**BONUS 1: Premium. PHP course**
+**BONUS 1: Premium. PHP Course**
 
 **BONUS 2: Premium: OOP PHP Course**
 
